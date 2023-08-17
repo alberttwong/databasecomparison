@@ -26,13 +26,13 @@ Why is primary key support important to batch and streaming insert, update, dele
 * StarRocks: https://docs.starrocks.io/en-us/latest/table_design/table_types/primary_key_table
 * ClickHouse: https://clickhouse.com/docs/en/optimize/sparse-primary-indexes#a-table-with-a-primary-key
 
-### List of databases that support the MySQL protocol
+### List of OLAP databases that support the MySQL protocol
 * Dolt database (OLTP): Dolt is a SQL database you can fork, clone, branch, merge, push and pull just like a Git repository. Connect to Dolt just like any MySQL database to run SQL queries. Use the command line interface to import CSV files, commit your changes, push them to a remote, or merge your teammate’s changes. https://www.dolthub.com/
 * StarRocks (OLAP): StarRocks is a next-gen sub-second MPP database for full analytics scenarios, including multi-dimensional analytics, real-time analytics and ad-hoc query. https://www.starrocks.io/
 * TiDB (OLTP+OLAP): TiDB is an open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. It is MySQL compatible and features horizontal scalability, strong consistency, and high availability. https://www.pingcap.com/
 * Sphinx Search (Search): Sphinx is a fulltext search engine that provides text search functionality to client applications. https://sphinxsearch.com/
 
-### List of databases that uses a cost based optimizer (CBO) or rule based optimizer for query execution
+### List of OLAP databases that uses a cost based optimizer (CBO) or rule based optimizer for query execution
 * StarRocks: (cbo) https://docs.starrocks.io/en-us/latest/introduction/StarRocks_intro
 * ClickHouse: (rbo)
 * Apache Druid: (cbo?) https://www.deep.bi/blog/druid-sql-queries-on-apache-druid
