@@ -17,6 +17,8 @@ Here is a list of databases that are known to built with SIMD
 * QuestDB https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-billions-of-rows-per-second/
 * Rockset https://rockset.com/blog/rockset-beats-clickhouse-druid-star-schema-benchmark/
 * Apache Doris https://doris.apache.org/docs/1.2/summary/basic-summary/
+* SingleStore https://www.singlestore.com/blog/memsql-processing-shatters-trillion-rows-per-second-barrier/
+* DuckDB https://duckdb.org/faq.html#does-duckdb-use-simd
 
 ## List of OLAP databases that support primary key to support batch and streaming upsert
 Why is primary key support important to batch and streaming insert, update, delete and upsert scenarios. https://atwong.medium.com/list-of-olap-databases-that-support-primary-key-8e42a65fbee3
