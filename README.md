@@ -10,8 +10,7 @@ This is a good list to show who is in the OLAP database space.  https://benchmar
 ### Built with SIMD (Single Instruction Mutiple Data)
 What is database that uses SIMD  https://atwong.medium.com/the-hottest-area-of-database-design-querying-billions-of-rows-per-second-with-simd-aa705fb5dfb6
 
-Here is a list of databases that are known to built with SIMD
-
+Here is a list of databases that are known to built with SIMD.  As you can see, from the ClickHouse Benchmark, databases with SIMD dominate the leaderboard. 
 * ClickHouse https://clickhouse.com/docs/zh/faq/general/why-clickhouse-is-so-fast
 * Apache Druid (maybe? https://imply.io/blog/announcing-druid-0-16-0/)
 * StarRocks https://www.starrocks.io/feature
