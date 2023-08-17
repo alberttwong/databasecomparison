@@ -9,6 +9,9 @@ This is a good list to show who is in the OLAP database space.  https://benchmar
 
 ### Built with SIMD (Single Instruction Mutiple Data)
 What is database that uses SIMD  https://atwong.medium.com/the-hottest-area-of-database-design-querying-billions-of-rows-per-second-with-simd-aa705fb5dfb6
+![Screenshot 2023-08-17 at 12 40 52 PM](https://github.com/alberttwong/databasecomparison/assets/749093/03cb8fa1-a4fe-4324-b6f0-00654e920f7b)
+
+
 Here is a list of databases that are known to built with SIMD
 
 * ClickHouse https://clickhouse.com/docs/zh/faq/general/why-clickhouse-is-so-fast
@@ -19,6 +22,7 @@ Here is a list of databases that are known to built with SIMD
 * Apache Doris https://doris.apache.org/docs/1.2/summary/basic-summary/
 * SingleStore https://www.singlestore.com/blog/memsql-processing-shatters-trillion-rows-per-second-barrier/
 * DuckDB https://duckdb.org/faq.html#does-duckdb-use-simd
+* AWS RedShift https://assets.amazon.science/93/e0/a347021a4c6fbbccd5a056580d00/sigmod22-redshift-reinvented.pdf
 
 ## List of OLAP databases that support primary key to support batch and streaming upsert
 Why is primary key support important to batch and streaming insert, update, delete and upsert scenarios. https://atwong.medium.com/list-of-olap-databases-that-support-primary-key-8e42a65fbee3
