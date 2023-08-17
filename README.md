@@ -43,5 +43,6 @@ Why is primary key support important to batch and streaming insert, update, dele
 ### Data Processing Models of different OLAP databases
 * StarRocks: MPP
 * Apache Druid: Scatter-Gather
+* ClickHouse: MPP
 * SingleStore: Scatter-Gather
 * Apache Spark: Map-Reduce
