@@ -11,15 +11,15 @@ This is a good list to show who is in the OLAP database space.  https://benchmar
 What is database that uses SIMD  https://atwong.medium.com/the-hottest-area-of-database-design-querying-billions-of-rows-per-second-with-simd-aa705fb5dfb6
 
 Here is a list of databases that are known to utilize SIMD.  As you can see, from the ClickHouse Benchmark, databases with SIMD dominate the leaderboard. 
-* ClickHouse https://clickhouse.com/docs/zh/faq/general/why-clickhouse-is-so-fast
-* Apache Druid (maybe? https://imply.io/blog/announcing-druid-0-16-0/)
-* StarRocks https://www.starrocks.io/feature
-* QuestDB https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-billions-of-rows-per-second/
-* Rockset https://rockset.com/blog/rockset-beats-clickhouse-druid-star-schema-benchmark/
-* Apache Doris https://doris.apache.org/docs/1.2/summary/basic-summary/
-* SingleStore https://www.singlestore.com/blog/memsql-processing-shatters-trillion-rows-per-second-barrier/
-* DuckDB https://duckdb.org/faq.html#does-duckdb-use-simd
-* AWS RedShift https://assets.amazon.science/93/e0/a347021a4c6fbbccd5a056580d00/sigmod22-redshift-reinvented.pdf
+* ClickHouse: https://clickhouse.com/docs/zh/faq/general/why-clickhouse-is-so-fast
+* Apache Druid: (maybe? https://imply.io/blog/announcing-druid-0-16-0/)
+* StarRocks: https://docs.starrocks.io/en-us/latest/introduction/StarRocks_intro
+* QuestDB: https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-billions-of-rows-per-second/
+* Rockset: https://rockset.com/blog/rockset-beats-clickhouse-druid-star-schema-benchmark/
+* Apache Doris: https://doris.apache.org/docs/1.2/summary/basic-summary/
+* SingleStore: https://www.singlestore.com/blog/memsql-processing-shatters-trillion-rows-per-second-barrier/
+* DuckDB: https://duckdb.org/faq.html#does-duckdb-use-simd
+* AWS RedShift: https://assets.amazon.science/93/e0/a347021a4c6fbbccd5a056580d00/sigmod22-redshift-reinvented.pdf
 
 ## List of OLAP databases that support primary key to support batch and streaming upsert
 Why is primary key support important to batch and streaming insert, update, delete and upsert scenarios. https://atwong.medium.com/list-of-olap-databases-that-support-primary-key-8e42a65fbee3
@@ -33,9 +33,15 @@ Why is primary key support important to batch and streaming insert, update, dele
 * Sphinx Search (Search): Sphinx is a fulltext search engine that provides text search functionality to client applications. https://sphinxsearch.com/
 
 ### List of databases that uses a cost based optimizer (CBO) or rule based optimizer for query execution
-* StarRocks (cbo) https://www.starrocks.io/feature
-* ClickHouse (rbo)
-* Apache Druid (cbo?) https://www.deep.bi/blog/druid-sql-queries-on-apache-druid
-* SingleStore (cbo) https://docs.singlestore.com/cloud/reference/sql-reference/data-manipulation-language-dml/explain/
-* Trino (cbo) https://trino.io/blog/2019/07/04/cbo-introduction.html
-* TiDB (cbo) https://docs.pingcap.com/tidb/stable/dev-guide-hybrid-oltp-and-olap-queries/
+* StarRocks: (cbo) https://docs.starrocks.io/en-us/latest/introduction/StarRocks_intro
+* ClickHouse: (rbo)
+* Apache Druid: (cbo?) https://www.deep.bi/blog/druid-sql-queries-on-apache-druid
+* SingleStore: (cbo) https://docs.singlestore.com/cloud/reference/sql-reference/data-manipulation-language-dml/explain/
+* Trino: (cbo) https://trino.io/blog/2019/07/04/cbo-introduction.html
+* TiDB: (cbo) https://docs.pingcap.com/tidb/stable/dev-guide-hybrid-oltp-and-olap-queries/
+
+### Data Processing Models of different OLAP databases
+* StarRocks: MPP
+* Apache Druid: Scatter-Gather
+* SingleStore: Scatter-Gather
+* Apache Spark: Map-Reduce
