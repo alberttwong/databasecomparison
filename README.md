@@ -34,7 +34,7 @@ Why is primary key support important to batch and streaming insert, update, dele
 
 ### List of OLAP databases that uses a cost based optimizer (CBO) or rule based optimizer for query execution
 * StarRocks: (cbo) https://docs.starrocks.io/en-us/latest/introduction/StarRocks_intro
-* ClickHouse: (rbo)
+* ClickHouse: (rbo) https://www.alibabacloud.com/blog/clickhouse-source-code-introduction-the-story-of-sql-queries_597893#:~:text=ClickHouse%20uses%20a%20syntax%20analyzer%20featuring%20recursive%20descent%20analysis.&text=This%20is%20usually%20referred%20to,without%20changing%20the%20query%20semantics.
 * Apache Druid: (cbo?) https://www.deep.bi/blog/druid-sql-queries-on-apache-druid
 * SingleStore: (cbo) https://docs.singlestore.com/cloud/reference/sql-reference/data-manipulation-language-dml/explain/
 * Trino: (cbo) https://trino.io/blog/2019/07/04/cbo-introduction.html
