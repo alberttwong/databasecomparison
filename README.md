@@ -38,3 +38,4 @@ Why is primary key support important to batch and streaming insert, update, dele
 * Apache Druid (cbo?) https://www.deep.bi/blog/druid-sql-queries-on-apache-druid
 * SingleStore (cbo) https://docs.singlestore.com/cloud/reference/sql-reference/data-manipulation-language-dml/explain/
 * Trino (cbo) https://trino.io/blog/2019/07/04/cbo-introduction.html
+* TiDB (cbo) https://docs.pingcap.com/tidb/stable/dev-guide-hybrid-oltp-and-olap-queries/
