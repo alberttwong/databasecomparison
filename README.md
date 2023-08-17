@@ -5,12 +5,10 @@ PR from everyone is welcomed!
 I use the term loosely.   I consider OLAP databases to range from Trino/Presto/Athena, Dremio, ClickHouse, Apache Druid, Apache Pinot, Snowflake, AWS RedShift, GCP BigQuery and others.
 
 This is a good list to show who is in the OLAP database space.  https://benchmark.clickhouse.com/
-
+![Screenshot 2023-08-17 at 12 40 52 PM](https://github.com/alberttwong/databasecomparison/assets/749093/03cb8fa1-a4fe-4324-b6f0-00654e920f7b)
 
 ### Built with SIMD (Single Instruction Mutiple Data)
 What is database that uses SIMD  https://atwong.medium.com/the-hottest-area-of-database-design-querying-billions-of-rows-per-second-with-simd-aa705fb5dfb6
-![Screenshot 2023-08-17 at 12 40 52 PM](https://github.com/alberttwong/databasecomparison/assets/749093/03cb8fa1-a4fe-4324-b6f0-00654e920f7b)
-
 
 Here is a list of databases that are known to built with SIMD
 
