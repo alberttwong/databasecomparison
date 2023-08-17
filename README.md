@@ -31,3 +31,10 @@ Why is primary key support important to batch and streaming insert, update, dele
 * StarRocks (OLAP): StarRocks is a next-gen sub-second MPP database for full analytics scenarios, including multi-dimensional analytics, real-time analytics and ad-hoc query. https://www.starrocks.io/
 * TiDB (OLTP+OLAP): TiDB is an open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. It is MySQL compatible and features horizontal scalability, strong consistency, and high availability. https://www.pingcap.com/
 * Sphinx Search (Search): Sphinx is a fulltext search engine that provides text search functionality to client applications. https://sphinxsearch.com/
+
+### List of databases that uses a cost based optimizer (CBO) or rule based optimizer for query execution
+* StarRocks (cbo) https://www.starrocks.io/feature
+* ClickHouse (rbo)
+* Apache Druid (cbo?) https://www.deep.bi/blog/druid-sql-queries-on-apache-druid
+* SingleStore (cbo) https://docs.singlestore.com/cloud/reference/sql-reference/data-manipulation-language-dml/explain/
+* Trino (cbo) https://trino.io/blog/2019/07/04/cbo-introduction.html
