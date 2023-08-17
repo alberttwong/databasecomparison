@@ -2,7 +2,7 @@
 PR from everyone is welcomed!
 
 ## OLAP databases
-I use the term loosely.   I consider OLAP databases to range from Trino/Presto/Athena, Dremio, ClickHouse, Apache Druid, Apache Pinot, Snowflake, AWS RedShift, GCP BigQuery and others.
+I use the term loosely.   I consider OLAP databases to range from Trino/Presto/Athena (it's federated query engine but people use it like a database), Dremio, ClickHouse, Apache Druid, Apache Pinot, Snowflake, AWS RedShift, GCP BigQuery and others.
 
 This is a good list to show who is in the OLAP database space.  https://benchmark.clickhouse.com/
 ![Screenshot 2023-08-17 at 12 40 52 PM](https://github.com/alberttwong/databasecomparison/assets/749093/03cb8fa1-a4fe-4324-b6f0-00654e920f7b)
