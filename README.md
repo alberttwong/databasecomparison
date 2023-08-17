@@ -7,10 +7,10 @@ I use the term loosely.   I consider OLAP databases to range from Trino/Presto/A
 This is a good list to show who is in the OLAP database space.  https://benchmark.clickhouse.com/
 ![Screenshot 2023-08-17 at 12 40 52 PM](https://github.com/alberttwong/databasecomparison/assets/749093/03cb8fa1-a4fe-4324-b6f0-00654e920f7b)
 
-### Built with SIMD (Single Instruction Mutiple Data)
+### List of OLAP databases that utilize SIMD (Single Instruction Mutiple Data)
 What is database that uses SIMD  https://atwong.medium.com/the-hottest-area-of-database-design-querying-billions-of-rows-per-second-with-simd-aa705fb5dfb6
 
-Here is a list of databases that are known to built with SIMD.  As you can see, from the ClickHouse Benchmark, databases with SIMD dominate the leaderboard. 
+Here is a list of databases that are known to utilize SIMD.  As you can see, from the ClickHouse Benchmark, databases with SIMD dominate the leaderboard. 
 * ClickHouse https://clickhouse.com/docs/zh/faq/general/why-clickhouse-is-so-fast
 * Apache Druid (maybe? https://imply.io/blog/announcing-druid-0-16-0/)
 * StarRocks https://www.starrocks.io/feature
