@@ -20,6 +20,7 @@ Here is a list of databases that are known to utilize SIMD.  As you can see, fro
 * SingleStore: https://www.singlestore.com/blog/memsql-processing-shatters-trillion-rows-per-second-barrier/
 * DuckDB: https://duckdb.org/faq.html#does-duckdb-use-simd
 * AWS RedShift: https://assets.amazon.science/93/e0/a347021a4c6fbbccd5a056580d00/sigmod22-redshift-reinvented.pdf
+* TiDB: https://pingcap.medium.com/why-benchmarking-distributed-databases-is-so-hard-2765a26cc2bf
 
 ## List of OLAP databases that support primary key to support batch and streaming upsert
 Why is primary key support important to batch and streaming insert, update, delete and upsert scenarios. https://atwong.medium.com/list-of-olap-databases-that-support-primary-key-8e42a65fbee3
