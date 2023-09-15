@@ -26,6 +26,7 @@ Here is a list of databases that are known to utilize SIMD.  As you can see, fro
 Why is primary key support important to batch and streaming insert, update, delete and upsert scenarios. https://atwong.medium.com/list-of-olap-databases-that-support-primary-key-8e42a65fbee3
 * StarRocks: https://docs.starrocks.io/en-us/latest/table_design/table_types/primary_key_table
 * ClickHouse: https://clickhouse.com/docs/en/optimize/sparse-primary-indexes#a-table-with-a-primary-key
+* SingleStore: https://docs.singlestore.com/cloud/create-a-database/understanding-keys-and-indexes-in-singlestore/
 
 ### List of OLAP databases that support the MySQL protocol
 * Dolt database (OLTP): Dolt is a SQL database you can fork, clone, branch, merge, push and pull just like a Git repository. Connect to Dolt just like any MySQL database to run SQL queries. Use the command line interface to import CSV files, commit your changes, push them to a remote, or merge your teammate’s changes. https://www.dolthub.com/
