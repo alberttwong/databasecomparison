@@ -32,6 +32,7 @@ Why is primary key support important to batch and streaming insert, update, dele
 * StarRocks (OLAP): StarRocks is a next-gen sub-second MPP database for full analytics scenarios, including multi-dimensional analytics, real-time analytics and ad-hoc query. https://www.starrocks.io/
 * TiDB (OLTP+OLAP): TiDB is an open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. It is MySQL compatible and features horizontal scalability, strong consistency, and high availability. https://www.pingcap.com/
 * Sphinx Search (Search): Sphinx is a fulltext search engine that provides text search functionality to client applications. https://sphinxsearch.com/
+* SingleStore: SingleStore is a proprietary, cloud-native database designed for data-intensive applications. A distributed, relational, SQL database management system that features ANSI SQL support, it is known for speed in data ingest, transaction processing, and query processing. https://docs.singlestore.com/cloud/connect-to-your-workspace/connect-with-mysql/connect-with-mysql-client/
 
 ### List of OLAP databases that uses a cost based optimizer (CBO) or rule based optimizer for query execution
 * StarRocks: (cbo) https://docs.starrocks.io/en-us/latest/introduction/StarRocks_intro
