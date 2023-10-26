@@ -51,13 +51,13 @@ Why is primary key support important to batch and streaming insert, update, dele
 * Apache Spark: Map-Reduce
 
 ### OLAP databases that can run TPC-H benchmarks
-What is the difference between TPC-H and TPC-DS? TL-DR; TPC-DS has more difficult SQL like SQL queries with different type of JOINS compared to TPC-H. Most OLAP systems can't even complete the benchmark.  https://atwong.medium.com/what-is-the-difference-between-tpc-h-and-tpc-ds-benchmarks-cb92fc104c32
+What is the difference between TPC-H and TPC-DS? TL-DR; TPC-DS has more difficult SQL like SQL queries with different types of JOINS compared to TPC-H. Most OLAP systems can't even complete the TPC-H benchmark or the more difficult TPC-DS benchmark.  https://atwong.medium.com/what-is-the-difference-between-tpc-h-and-tpc-ds-benchmarks-cb92fc104c32
 * StarRocks: Successful.  See https://www.starrocks.io/blog/benchmark-test
 * ClickHouse: Failed. They do not stricly follow the standard SQL syntax.  They say to use their modified version of Star Schema Benchmark (SSB) which isn't apples to apples comparision. 
 * Apache Druid: Failed.  They said: Since Druid was built to solve a specific type of problem, we chose a set of benchmarks typical of Druid's workload that covers the majority of queries we observe in production. Why not use the TPC-H benchmark queries, you may ask? Most of those queries do not directly apply to Druid, and we would have to largely modify the queries or the data to fit the Druid model. See https://druid.apache.org/blog/2014/03/17/benchmarking-druid.html.  
 
 ### OLAP databases that can run TPC-DS benchmarks
-What is the difference between TPC-H and TPC-DS? TL-DR; TPC-DS has more difficult SQL like SQL queries with different type of JOINS compared to TPC-H. Most OLAP systems can't even complete the benchmark. https://atwong.medium.com/what-is-the-difference-between-tpc-h-and-tpc-ds-benchmarks-cb92fc104c32
+What is the difference between TPC-H and TPC-DS? TL-DR; TPC-DS has more difficult SQL like SQL queries with different types of JOINS compared to TPC-H. Most OLAP systems can't even complete the TPC-H benchmark or the more difficult TPC-DS benchmark.  https://atwong.medium.com/what-is-the-difference-between-tpc-h-and-tpc-ds-benchmarks-cb92fc104c32
 * StarRocks: Successful.  See https://www.starrocks.io/blog/benchmark-test
 * ClickHouse: Failed. They do not stricly follow the standard SQL syntax. They say to use their modified version of Star Schema Benchmark (SSB) which isn't apples to apples comparision. 
 * Apache Druid: Failed.  They said: Since Druid was built to solve a specific type of problem, we chose a set of benchmarks typical of Druid's workload that covers the majority of queries we observe in production. Why not use the TPC-H benchmark queries, you may ask? Most of those queries do not directly apply to Druid, and we would have to largely modify the queries or the data to fit the Druid model. See https://druid.apache.org/blog/2014/03/17/benchmarking-druid.html.  
