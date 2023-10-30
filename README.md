@@ -63,3 +63,12 @@ What is the difference between TPC-H and TPC-DS? TL-DR; TPC-DS has more difficul
 * ClickHouse: Failed. They do not strictly follow the standard SQL syntax. They say to use their modified version of Star Schema Benchmark (SSB) which isn't apples to apples comparison.
 * Apache Druid: Failed.  They said: Since Druid was built to solve a specific type of problem, we chose a set of benchmarks typical of Druid's workload that covers the majority of queries we observe in production. Why not use the TPC-H benchmark queries, you may ask? Most of those queries do not directly apply to Druid, and we would have to largely modify the queries or the data to fit the Druid model. See https://druid.apache.org/blog/2014/03/17/benchmarking-druid.html.
 * SingleStore: Successful. https://www.singlestore.com/blog/memsql-tpc-benchmarks/
+
+### OLAP databases that support separation of compute and storage
+* StarRocks: Yes
+* Clickhouse: Yes
+* Rockset: Yes
+* Apache Druid: Yes
+* SingleStore: Yes
+* Snowflake: Yes
+* RedShift: Only with RedShift Spectrum only.
