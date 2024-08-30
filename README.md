@@ -72,3 +72,5 @@ What is the difference between TPC-H and TPC-DS? TL-DR; TPC-DS has more difficul
 * SingleStore: Yes
 * Snowflake: Yes
 * RedShift: Only with RedShift Spectrum only.
+
+<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=e99cad1d-7d4f-42c4-8877-90ae769f3d86" />
